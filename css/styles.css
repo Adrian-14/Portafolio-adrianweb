@@ -12,3 +12,57 @@
   padding: 0.625rem 0;
   border-radius: 0.625rem;
 }
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #066ac9;
+}
+.nav-pills-bg-soft .nav-link {
+  color: #066ac9;
+}
+.nav-pills .nav-link {
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 0.5rem 1rem;
+}
+.nav-pills .nav-link {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0.325rem;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+.nav-link {
+  display: block;
+  padding: 0.25rem 0.75rem;
+  color: #747579;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+button, select {
+  text-transform: none;
+}
+input, button, select, optgroup, textarea {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.nav {
+  list-style: none;
+}
