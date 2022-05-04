@@ -1,12 +1,7 @@
 .bg-blue{
-  background-color: #17A2B8;
+  background-color: #4a85f3;
 }
-.bg-purple{
-  background-color: #6F42C1;
-}
-.bg-bluedark{
-  background-color: #1D3B53;
-}
+
 .nav-pills-bg-soft{
   background-color: rgba(6, 106, 201, 0.1);
   padding: 0.625rem 0;
