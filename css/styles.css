@@ -1,6 +1,10 @@
 body{
   font-family: 'Anton', sans-serif;
 }
+
+.fw-light {
+  font-weight: 400 !important;
+}
 .bg-blue{
   background-color: #4a85f3;
 }
