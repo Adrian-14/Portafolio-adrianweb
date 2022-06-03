@@ -1,14 +1,12 @@
 body{
   font-family: 'Anton', sans-serif;
 }
-
 .fw-light {
   font-weight: 400 !important;
 }
 .bg-blue{
   background-color: #4a85f3;
 }
-
 .nav-pills-bg-soft{
   background-color: rgba(6, 106, 201, 0.1);
   padding: 0.625rem 0;
@@ -70,4 +68,7 @@ button {
 }
 .text-warning {
   color: yellow !important;
+}
+.bg-footer{
+  background-color: rgb(235, 235, 235);
 }
