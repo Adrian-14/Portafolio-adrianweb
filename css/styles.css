@@ -1,5 +1,5 @@
 body{
-  font-family: 'Anton', sans-serif;
+  font-family: 'K2D', sans-serif;
 }
 .fw-light {
   font-weight: 400 !important;
@@ -71,4 +71,7 @@ button {
 }
 .bg-footer{
   background-color: rgb(235, 235, 235);
+}
+.btn-gradient{
+  background: linear-gradient(70deg, #6C73FF, #B07DFF);
 }
